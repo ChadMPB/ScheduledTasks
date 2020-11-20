@@ -14,6 +14,3 @@ Register-ScheduledTask -TaskName $taskname -InputObject $S
 
     
 }
-
-
-New-MPBScheduledTask -scriptpath "\\mpbnas01\Info_Tech\Powershell\AD_Local\AD_User_Export.ps1" -Date (Get-date) -taskname "Export-Users"
